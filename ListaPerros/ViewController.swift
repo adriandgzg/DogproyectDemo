@@ -46,6 +46,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
             
         }else {
             if searchBar.selectedScopeButtonIndex == 0 {
+        //javier dominguez 
                 perro = perro.filter({ dog in
                     return dog.dogName!.lowercased().contains(searchText.lowercased())
                 })
