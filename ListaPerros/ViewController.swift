@@ -45,14 +45,18 @@ class ViewController: UIViewController, UISearchBarDelegate {
             
         }else {
             if searchBar.selectedScopeButtonIndex == 0 {
-                perro = perro.filter({ dog in
-                    return dog.description!.lowercased().contains(searchText.lowercased())
-                    //esto es un comentario
-                })
+                self.filterWithText(searchText: searchText) 
             }
         }
         self.tablaPerros.reloadData()
     }
+
+    func filterWithText(searchText:String){
+        perro = perro.filter({ dog in
+            return dog.dogName!.lowercased().contains(searchText.lowercased())
+        })
+    }
+
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
