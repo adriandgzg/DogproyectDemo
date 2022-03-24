@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController, UISearchBarDelegate {
-    var perro:[Perros]=[]
+    var perro:[Perros] = []
     @IBOutlet weak var tablaPerros: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
         tablaPerros.register(celdaPerro, forCellReuseIdentifier: "celdaPerro")
         
 /*############# llamado de funcion para search bar #######################################################*/
-        searchBar()
+        self.searchBar()
     }
     
 /*############ funciones para search bar #################################################################*/
