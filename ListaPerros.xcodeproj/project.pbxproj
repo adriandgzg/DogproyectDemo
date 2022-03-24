@@ -18,6 +18,7 @@
 		15E7F4C427EBD87E00946F04 /* PerrosCeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7F4C227EBD87E00946F04 /* PerrosCeldaTableViewCell.swift */; };
 		15E7F4C527EBD87E00946F04 /* PerrosCeldaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7F4C327EBD87E00946F04 /* PerrosCeldaTableViewCell.xib */; };
 		15E7F4C827EBD96A00946F04 /* ExtensionImagenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7F4C727EBD96A00946F04 /* ExtensionImagenView.swift */; };
+		5ABAE04927ED0813003DB237 /* PruebaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABAE04827ED0813003DB237 /* PruebaDemo.swift */; };
 		9C32C15627ED06E000A93325 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C15527ED06E000A93325 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		15E7F4C227EBD87E00946F04 /* PerrosCeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerrosCeldaTableViewCell.swift; sourceTree = "<group>"; };
 		15E7F4C327EBD87E00946F04 /* PerrosCeldaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerrosCeldaTableViewCell.xib; sourceTree = "<group>"; };
 		15E7F4C727EBD96A00946F04 /* ExtensionImagenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionImagenView.swift; sourceTree = "<group>"; };
+		5ABAE04827ED0813003DB237 /* PruebaDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaDemo.swift; sourceTree = "<group>"; };
 		9C32C15527ED06E000A93325 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +54,7 @@
 		15E7F49627EBD25500946F04 = {
 			isa = PBXGroup;
 			children = (
+				5ABAE04827ED0813003DB237 /* PruebaDemo.swift */,
 				15E7F4A127EBD25500946F04 /* ListaPerros */,
 				15E7F4A027EBD25500946F04 /* Products */,
 			);
@@ -202,6 +205,7 @@
 				15E7F4B827EBD28B00946F04 /* JsonExecute.swift in Sources */,
 				15E7F4C827EBD96A00946F04 /* ExtensionImagenView.swift in Sources */,
 				15E7F4A327EBD25500946F04 /* AppDelegate.swift in Sources */,
+				5ABAE04927ED0813003DB237 /* PruebaDemo.swift in Sources */,
 				15E7F4C427EBD87E00946F04 /* PerrosCeldaTableViewCell.swift in Sources */,
 				9C32C15627ED06E000A93325 /* Utilities.swift in Sources */,
 				15E7F4A527EBD25500946F04 /* SceneDelegate.swift in Sources */,
