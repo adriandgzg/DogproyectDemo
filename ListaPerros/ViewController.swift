@@ -7,6 +7,12 @@
 import UIKit
 
 class ViewController: UIViewController, UISearchBarDelegate {
+    
+
+    @IBAction func btnTocarBoton(_ sender: Any) {
+        print("presionaste el boton")
+    }
+    
     var perro:[Perros] = []
     @IBOutlet weak var tablaPerros: UITableView!
     override func viewDidLoad() {
