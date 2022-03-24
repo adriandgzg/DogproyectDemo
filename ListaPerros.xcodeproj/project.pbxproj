@@ -18,6 +18,7 @@
 		15E7F4C427EBD87E00946F04 /* PerrosCeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7F4C227EBD87E00946F04 /* PerrosCeldaTableViewCell.swift */; };
 		15E7F4C527EBD87E00946F04 /* PerrosCeldaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E7F4C327EBD87E00946F04 /* PerrosCeldaTableViewCell.xib */; };
 		15E7F4C827EBD96A00946F04 /* ExtensionImagenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7F4C727EBD96A00946F04 /* ExtensionImagenView.swift */; };
+		9C32C15627ED06E000A93325 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32C15527ED06E000A93325 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		15E7F4C227EBD87E00946F04 /* PerrosCeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerrosCeldaTableViewCell.swift; sourceTree = "<group>"; };
 		15E7F4C327EBD87E00946F04 /* PerrosCeldaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerrosCeldaTableViewCell.xib; sourceTree = "<group>"; };
 		15E7F4C727EBD96A00946F04 /* ExtensionImagenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionImagenView.swift; sourceTree = "<group>"; };
+		9C32C15527ED06E000A93325 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		15E7F4A127EBD25500946F04 /* ListaPerros */ = {
 			isa = PBXGroup;
 			children = (
+				9C32C15427ED06D300A93325 /* Utilities */,
 				15E7F4C627EBD94500946F04 /* extensionImagrView */,
 				15E7F4BC27EBD6AE00946F04 /* CeldaListaPerros */,
 				15E7F4B927EBD2E100946F04 /* Struct */,
@@ -112,6 +115,14 @@
 				15E7F4C727EBD96A00946F04 /* ExtensionImagenView.swift */,
 			);
 			path = extensionImagrView;
+			sourceTree = "<group>";
+		};
+		9C32C15427ED06D300A93325 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9C32C15527ED06E000A93325 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				15E7F4C827EBD96A00946F04 /* ExtensionImagenView.swift in Sources */,
 				15E7F4A327EBD25500946F04 /* AppDelegate.swift in Sources */,
 				15E7F4C427EBD87E00946F04 /* PerrosCeldaTableViewCell.swift in Sources */,
+				9C32C15627ED06E000A93325 /* Utilities.swift in Sources */,
 				15E7F4A527EBD25500946F04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
