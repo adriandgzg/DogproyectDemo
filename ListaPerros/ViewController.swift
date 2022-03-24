@@ -38,8 +38,8 @@ class ViewController: UIViewController, UISearchBarDelegate {
     }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText == "" {
-            let json = ExecuteJSON()
-            json.executeJSON(url: Urls.linkPerros) { perro in
+            let apiRequest = ExecuteJSON()
+            apiRequest.executeJSON(url: Urls.linkPerros) { perro in
                 self.perro = perro
                 self.tablaPerros.reloadData()
             }
