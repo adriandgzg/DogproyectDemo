@@ -1,4 +1,3 @@
-// javier
 //  ViewController.swift
 //  ListaPerros
 //
