@@ -67,7 +67,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tablaPerros.dequeueReusableCell(withIdentifier: "celdaPerro", for: indexPath) as! PerrosCeldaTableViewCell
         
-        celda.backgroundColor = UIColor.hexStringToUIColor(hex: "F8F8F8")
+        celda.backgroundColor = UIColor.blue
+        //celda.backgroundColor = UIColor.hexStringToUIColor(hex: "F8FFFF")
         
         celda.lblNombrePerro.text = perro[indexPath.row].dogName?.capitalized
         celda.lblNombrePerro.textColor = UIColor.hexStringToUIColor(hex: "333333")
